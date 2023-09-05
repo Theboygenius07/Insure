@@ -203,6 +203,7 @@ header ul li a {
 }
 .card1 {
   gap: 45px;
+  
 }
 .card2 {
   gap: 45px;
@@ -463,7 +464,7 @@ footer {
     padding: 20px;
   }
   header .logo img {
-    max-width: 60px;
+    max-width: 90px;
   }
   header ul {
     display: none;
@@ -491,7 +492,7 @@ footer {
   header ul.navigation.active {
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     width: 100%;
     height: 100%;
     display: flex;
@@ -613,19 +614,95 @@ footer {
     background-size: 0px;
     background-position: top right; /* Align the background image to the top right */
   }
+  .content2 .card1 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .content2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  .content2 h1 {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 600;
+  align-items: center;
+  text-align: center;
+}
+  .card1 {
+    gap: 20px;
+    justify-content: center;
+    align-items: center; /* Center items horizontally in the column */
+    text-align: center; /* Center text content */
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  .card2 {
+    gap: 20px;
+    justify-content: center;
+    align-items: center; /* Center items horizontally in the column */
+    text-align: center; /* Center text content */
+    display: flex;
+    flex-direction: column;
+  }
+  }
+  .card3 {
+    gap: 20px;
+    justify-content: center;
+    align-items: center; /* Center items horizontally in the column */
+    text-align: center; /* Center text content */
+    display: flex;
+    flex-direction: column;
+  }
+  
   .subSection {
     padding: 20px;
   }
+  .content3 {
+    display: flex;
+    position: relative;
+    background-color: rgb(3, 3, 31);
+    margin-top: 140px;
+    padding: 50px 40px;
+    gap: 150px;
+    /* height: 400px; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url(bg-pattern-how-we-work-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: right;}
+    .content3 h1 {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 600;
+  vertical-align: top;
+  text-align: center; /* Align text to the top of the line */
+  line-height: 1.2; /* Adjust line-height for better spacing */
+}
   footer {
     padding: 30px;
   }
+  .footerImages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+  gap: 30px;
+}
   .footerNav {
     display: grid;
     justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 
   .viewPlans2 {
     display: flex;
     margin: auto;
   }
-} /* Bring the text content to the front */
+ /* Bring the text content to the front */
