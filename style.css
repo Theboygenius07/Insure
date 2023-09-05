@@ -28,13 +28,17 @@ header .logo img {
     max-width: 100px;
 }
 
-header ul {
+
+header  ul {
     position: relative;
     display: flex;
     gap: 40px;
     align-items: center;
     list-style: none; /* Remove default list bullet points */
     padding: 0; /* Remove default padding */
+}
+.navigation{
+    cursor: pointer;
 }
 
 header ul li {
@@ -53,6 +57,7 @@ header ul li a {
     cursor: pointer; /* Add pointer cursor for all links */
     padding: 5px 21px;
     border: transparent solid 1px; /* Transparent border initially */
+    /* z-index: 10; */
 }
 .viewPlans{
 
