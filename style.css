@@ -215,7 +215,7 @@ header ul li a {
 padding-bottom: 20px;
 } */
 .subSection {
-  padding: 0px 150px;
+  padding: 0px 200px;
 }
 .content3 {
   display: flex;
@@ -225,7 +225,7 @@ padding-bottom: 20px;
   padding: 50px 80px;
   gap: 150px;
   /* height: 400px; */
-  text-align: center;
+  text-align: left;
   justify-content: space-between;
   align-items: center;
   background-image: url(bg-pattern-how-we-work-desktop.svg);
@@ -648,7 +648,6 @@ footer {
     display: flex;
     flex-direction: column;
   }
-  }
   .card3 {
     gap: 20px;
     justify-content: center;
@@ -706,3 +705,5 @@ footer {
     margin: auto;
   }
  /* Bring the text content to the front */
+ 
+}
